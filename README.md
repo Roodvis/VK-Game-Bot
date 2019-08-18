@@ -7,7 +7,7 @@
 # Настройка
 ### 1. Получение токенов:
   1) Получите Long Poll API Token в настройках сообщества
-  2) Получите Standalone APP Access Token, <a href="https://vk.com/dev/implicit_flow_user">детальнее</a> (в параметре display укажите свойства <strong>wall</strong> и <strong>offline</strong>)
+  2) Получите Standalone APP Access Token, <a href="https://vk.com/dev/implicit_flow_user">детальнее</a> (в параметре <strong>display</strong> укажите свойства <strong>wall</strong> и <strong>offline</strong>)
 ### 2. Настройка Базы Данных:
   1) Откройте вашу СУБД (советую phpmyadmin)
   2) Создайте Базу Данных под именем vk_bot
