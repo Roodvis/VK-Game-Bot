@@ -19,7 +19,7 @@
   #### 1. Откройте файл index.js
   1) Создайте соединение с базой данных на 6-ой строке
   ```js
-  let con = mysql.createPool({
+let con = mysql.createPool({
 	host: 'localhost', // Хост
 	user: 'root', // Логин
 	password: '', // Пароль
