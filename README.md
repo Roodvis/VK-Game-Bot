@@ -27,3 +27,9 @@
   	const standalone_vk = new VK({
 	      token: "STANDALONE APP TOKEN" // Токен
 	});
+  #### 2. Откройте файл game.js
+  1) На 12-ой строке укажите ваш Long Poll API Token:
+  #####
+  	const vk = new VK({
+	      token: "LONG POLL TOKEN" // Токен
+	});
