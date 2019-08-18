@@ -13,11 +13,11 @@ let con = mysql.createPool({
 // Настройка vk-io (отправка токена)
 
 const vk = new VK({
-	token: "0cef66f9560391ad9e901be947f053fe343c2fc1732c8a37d52c039e490664f4c0790ec13e2c4fdca784a" // Токен
+	token: "YOUR TOKEN" // Токен
 });
 
 const standalone_vk = new VK({
-	token: "847cdf44b8400bc834ff9d6f20a78a9ef5da343f9581a13f26df2a6cad759a00b8408bb189942677df614" // Токен
+	token: "YOUR TOKEN" // Токен
 });
 
 // Доступ к VK Api Methods
