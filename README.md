@@ -18,7 +18,7 @@
 ### 3. Настройка скрипта
   #### 1. Откройте файл index.js
   1) Создайте соединение с базой данных на 6-ой строке
-  #####
+  ```js
   	let con = mysql.createPool({
 		host: 'localhost', // Хост
 		user: 'root', // Логин
@@ -26,6 +26,7 @@
 		database: 'vk_bot' // Название базы данных
 	});
   2) На 16-ой строке укажите ваш Long Poll API Token:
+```
   ```js
   const vk = new VK({
   	token: "LONG POLL TOKEN" // Токен
