@@ -6,7 +6,7 @@
 5. Запустите бота командой <strong>npm start</strong>
 # Настройка
 ### 1. Получение токенов:
-  1) Получите <strong>Long Poll API Token</strong> в настройках сообщества
+  1) Получите <strong>Long Poll API Token</strong> в настройках сообщества, <a href='https://vk.com/dev/using_longpoll'>детальнее</a>
   2) Получите <strong>Standalone-APP Access Token</strong>, <a href="https://vk.com/dev/implicit_flow_user">детальнее</a> (в параметре <strong>display</strong> укажите свойства <strong>wall</strong> и <strong>offline</strong>)
 ### 2. Настройка Базы Данных:
   1) Откройте вашу СУБД (в примере использовался <strong>phpmyadmin</strong>)
