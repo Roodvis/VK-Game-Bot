@@ -20,5 +20,5 @@
   2) На 16-ой строке укажите ваш Long Poll API Token
   #####
   	const vk = new VK({
-	token: "LONG POLL TOKEN" // Токен
+		token: "LONG POLL TOKEN" // Токен
 	});
