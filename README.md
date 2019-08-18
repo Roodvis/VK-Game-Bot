@@ -18,7 +18,7 @@
 ### 3. Настройка скрипта
   #### 1. Откройте файл index.js
   1) Создайте соединение с базой данных на 6-ой строке
-  ```js
+```js
 let con = mysql.createPool({
 	host: 'localhost', // Хост
 	user: 'root', // Логин
@@ -27,13 +27,13 @@ let con = mysql.createPool({
 });
 ```
   2) На 16-ой строке укажите ваш Long Poll API Token:
-  ```js
+```js
 const vk = new VK({
 	token: "LONG POLL TOKEN" // Токен
 });
 ```
   3) На 20-ой строке укажите ваш Standalone-App Access Token:
-  ```js
+```js
 const standalone_vk = new VK({
       token: "STANDALONE APP TOKEN" // Токен
 });
