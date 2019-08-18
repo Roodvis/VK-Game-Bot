@@ -26,13 +26,13 @@ let con = mysql.createPool({
 	database: 'vk_bot' // Название базы данных
 });
 ```
-  2) На 16-ой строке укажите ваш Long Poll API Token:
+  2) На 16-ой строке укажите ваш <strong>Long Poll API Token</strong>:
 ```js
 const vk = new VK({
 	token: "LONG POLL TOKEN" // Токен
 });
 ```
-  3) На 20-ой строке укажите ваш Standalone-App Access Token:
+  3) На 20-ой строке укажите ваш <strong>Standalone-App Access Token</strong>:
 ```js
 const standalone_vk = new VK({
       token: "STANDALONE APP TOKEN" // Токен
@@ -51,7 +51,7 @@ let con = mysql.createPool({
 	database: 'vk_bot' // Название базы данных
 });
 ```
-  2) На 12-ой строке укажите ваш Long Poll API Token:
+  2) На 12-ой строке укажите ваш <strong>Long Poll API Token</strong>:
 ```js
 const vk = new VK({
       token: "LONG POLL TOKEN" // Токен
