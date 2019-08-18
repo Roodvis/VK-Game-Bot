@@ -36,7 +36,15 @@
 	      token: "STANDALONE APP TOKEN" // Токен
 	});
   #### 2. Откройте файл game.js
-  1) На 12-ой строке укажите ваш Long Poll API Token:
+  1) Создайте соединение с базой данных на 6-ой строке
+  #####
+  	let con = mysql.createPool({
+		host: 'localhost', // Хост
+		user: 'root', // Логин
+		password: '', // Пароль
+		database: 'vk_bot' // Название базы данных
+	});
+  2) На 12-ой строке укажите ваш Long Poll API Token:
   #####
   	const vk = new VK({
 	      token: "LONG POLL TOKEN" // Токен
