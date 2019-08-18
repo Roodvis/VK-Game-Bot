@@ -26,10 +26,11 @@
 		database: 'vk_bot' // Название базы данных
 	});
   2) На 16-ой строке укажите ваш Long Poll API Token:
-  #####
+  	```js
   	const vk = new VK({
 	      token: "LONG POLL TOKEN" // Токен
 	});
+	```
   3) На 20-ой строке укажите ваш Standalone-App Access Token:
   #####
   	const standalone_vk = new VK({
