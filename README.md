@@ -33,24 +33,27 @@ const vk = new VK({
 });
 ```
   3) На 20-ой строке укажите ваш Standalone-App Access Token:
-  #####
-  	const standalone_vk = new VK({
-	      token: "STANDALONE APP TOKEN" // Токен
-	});
+  ```js
+const standalone_vk = new VK({
+      token: "STANDALONE APP TOKEN" // Токен
+});
+```
   4) На 324-ой строке укажите ID вашей страницы:
   #####
   	user_id: "Ваш ID"
   #### 2. Откройте файл game.js
   1) Создайте соединение с базой данных на 4-ой строке
-  #####
-  	let con = mysql.createPool({
-		host: 'localhost', // Хост
-		user: 'root', // Логин
-		password: '', // Пароль
-		database: 'vk_bot' // Название базы данных
-	});
+```js
+let con = mysql.createPool({
+	host: 'localhost', // Хост
+	user: 'root', // Логин
+	password: '', // Пароль
+	database: 'vk_bot' // Название базы данных
+});
+```
   2) На 12-ой строке укажите ваш Long Poll API Token:
-  #####
-  	const vk = new VK({
-	      token: "LONG POLL TOKEN" // Токен
-	});
+```js
+const vk = new VK({
+      token: "LONG POLL TOKEN" // Токен
+});
+```
