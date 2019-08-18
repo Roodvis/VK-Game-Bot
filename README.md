@@ -7,4 +7,7 @@
 # Настройка
 ### 1. Получение токенов:
   1) Получите Long Poll API Token в настройках сообщества
-  2) Получите Standalone APP Access Token, детальнее здесь: https://vk.com/dev/implicit_flow_user (в параметре display укажите два свойства: wall и offline
+  2) Получите Standalone APP Access Token, детальнее здесь: https://vk.com/dev/implicit_flow_user (в параметре display укажите два свойства: wall и offline)
+### 2. Изменение файлов:
+  ##### 1. Изменение файла index.js:
+    1) 
