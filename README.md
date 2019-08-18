@@ -9,12 +9,12 @@
   1) Получите <strong>Long Poll API Token</strong> в настройках сообщества
   2) Получите <strong>Standalone-APP Access Token</strong>, <a href="https://vk.com/dev/implicit_flow_user">детальнее</a> (в параметре <strong>display</strong> укажите свойства <strong>wall</strong> и <strong>offline</strong>)
 ### 2. Настройка Базы Данных:
-  1) Откройте вашу СУБД (советую phpmyadmin)
-  2) Создайте Базу Данных под именем vk_bot
+  1) Откройте вашу СУБД (в примере использовался <strong>phpmyadmin</strong>)
+  2) Создайте Базу Данных под именем <strong>vk_bot</strong>
   3) Откройте вашу базу данных
-  4) Откройте вкладку "Импорт"
-  5) Выберите файл import_me.sql
-  6) Нажмите "Вперёд"
+  4) Откройте вкладку <strong>"Импорт"</strong>
+  5) Выберите файл <strong>import_me.sql</strong>
+  6) Нажмите <strong>"Вперёд"</strong>
 ### 3. Настройка скрипта
   #### 1. Откройте файл index.js
   1) Создайте соединение с базой данных на 6-ой строке
