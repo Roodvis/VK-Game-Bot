@@ -321,7 +321,7 @@ vk.updates.hear(/^\/вывод киви (.+) (.+)/, (context) => {
 				if(money_get == money_getInt){
 					con.query(new_user_balance_sql, [new_user_balance, context.senderId]);
 					api.call('messages.send', {
-						user_id: 446355671,
+						user_id: "Ваш ID",
 						random_id: Math.random() * 10000000000,
 						message: `Поступил новый запрос на получение денег:
 								  Способ оплаты: QIWI
